@@ -4,13 +4,11 @@
 }
 body{
     font-family: 'Raleway', sans-serif;
-    /*font-weight: bold;*/
 }
-/******************************************************************/
+/****************************************************************/
 
 /*BARRA DE NAV*/
 
-/*sombra en la parte inferior del header*/
 .header{
     border: 0 solid #00ff991e;
     box-shadow: 2px 9px 16px -5px #00ff991e;
@@ -21,7 +19,7 @@ body{
     width: 100%;
     margin: 30px 50px 30px 600px;
 }
-/*estilos en la lista*/
+
 .header .nav ul li{
         display: inline;
         margin-right: 40px;
@@ -32,7 +30,7 @@ body{
             color: black;
             font-weight: 300;
 }
-/*li contacto diferenciado*/
+
 .contactoli{
     background-color: #2CA272;
     border-radius: 50px;
@@ -44,7 +42,7 @@ body{
 .header .nav ul .contactoli .contactoa{
     color: white;
 }
-/*hovers en el nav*/
+
 .header .nav ul li a:hover{
     color: #2CA272;
 }
@@ -64,7 +62,7 @@ body{
     display: flex;
     justify-content: center;
 }
-/*propiedades compartidas en los 2 divs*/
+
 .divs{
     /*border: black 1px solid;*/
     margin: 150px 50px;
@@ -72,7 +70,7 @@ body{
     width: 37%;
     height: fit-content;
 }
-/*propiedades del .div1*/
+
 .div1{
     padding: 3% 0;
 }
@@ -107,7 +105,7 @@ body{
 .button:hover{
     background-color: #3bc08b;
 }
-/*propiedades del .div2*/
+
 .div2 img{
     width: 100%;
 } 
@@ -216,7 +214,6 @@ blockquote{
 
 .proyectohijxs{
     display: flex;
-    border: 1px solid #70be9f;
     justify-content:flex-start;
     width: 85%;
     flex-wrap: wrap;
@@ -234,6 +231,23 @@ blockquote{
 }
 
 .hijx img{
-    width: 70%;
-    height: 70%;
+    width: 75%;
+    height: 75%;
+    margin: 20px;
+}
+
+.hijx figcaption{
+    margin: 10px 0 35px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.hijx:hover , .hijx figcaption:hover{
+    color: #2CA272;
+    border: 2px #2CA272 solid;
+    border-radius: 5px;
+}
+
+.hijx figcaption:hover{
+    border: none;
 }
