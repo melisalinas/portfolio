@@ -6,52 +6,50 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 /****************************************************************/
-
-/*BARRA DE NAV*/
-
-.header{
-    border: 0 solid #00ff991e;
-    box-shadow: 2px 9px 16px -5px #00ff991e;
-    position: fixed;
-    background-color: white;
-}                           
-.nav{
+header{
     width: 100%;
-    margin: 30px 50px 30px 600px;
+    background-color: white;
+    display: flex;
+    height: 100px;
+    justify-content: end;
+    align-items: center;
+    position: fixed;
+    box-shadow: 2px 9px 16px -5px #00ff991e;
 }
 
-.header .nav ul li{
-        display: inline;
-        margin-right: 40px;
-        font-size: 1.2em;
-}
-.header .nav ul li a{
-            text-decoration: none;
-            color: black;
-            font-weight: 300;
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 50px;
+    align-items: baseline;
+
 }
 
-.contactoli{
-    background-color: #2CA272;
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+
+.contactoa{
+    color: white;
     border-radius: 50px;
+    background-color: #2CA272;
     padding: 10px 25px;
 }
-.header .nav ul .contactoli a{
-    color: white;
-}
-.header .nav ul .contactoli .contactoa{
-    color: white;
+
+
+nav a:hover{
+    color: #3bc08b;
 }
 
-.header .nav ul li a:hover{
-    color: #2CA272;
-}
-.contactoli:hover{
+.contactoa:hover{
     background-color: #3bc08b;
     border-radius: 50px;
     padding: 10px 25px;
+    color: white;
 }
-
 /***************************************************************/
 
 /*SECTION CLASS PRESENTACION*/
@@ -153,7 +151,6 @@ body{
     margin: 15px;
     padding: 50px 40px;
     text-align: center;
-    /*display: inline-block;*/ 
     width: 20%;
     background-color: white;
     border-radius: 5px;
