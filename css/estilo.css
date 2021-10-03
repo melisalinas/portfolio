@@ -5,28 +5,32 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+
 /****************************************************************/
+
+/*HEADER*/
+
 header{
     width: 100%;
     background-color: white;
     display: flex;
-    height: 100px;
+    height: 6em;
     justify-content: end;
     align-items: center;
     position: fixed;
-    box-shadow: 2px 9px 16px -5px #00ff991e;
+    box-shadow: 0.13em 0.57em 1em -0.3em #00ff991e;
 }
 
 nav{
     width: 50%;
     display: flex;
     justify-content: space-around;
-    padding-right: 50px;
+    padding-right: 3em;
     align-items: baseline;
 
 }
 
-a{
+nav a{
     text-decoration: none;
     color: black;
     font-size: 1.1em;
@@ -34,9 +38,9 @@ a{
 
 .contactoa{
     color: white;
-    border-radius: 50px;
+    border-radius: 3em;
     background-color: #2CA272;
-    padding: 10px 25px;
+    padding: 0.6em 1.6em;
 }
 
 
@@ -46,10 +50,11 @@ nav a:hover{
 
 .contactoa:hover{
     background-color: #3bc08b;
-    border-radius: 50px;
-    padding: 10px 25px;
+    border-radius: 3em;
+    padding: 0.6em 1.6em;
     color: white;
 }
+
 /***************************************************************/
 
 /*SECTION CLASS PRESENTACION*/
@@ -58,31 +63,33 @@ nav a:hover{
     /*border: black 1px solid;*/
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .divs{
     /*border: black 1px solid;*/
-    margin: 150px 50px;
-    display: inline-block;
+    margin: 9.38em 3em;
     width: 37%;
-    height: fit-content;
+    /*height: fit-content;*/
+    flex-basis: 1;
+    flex-shrink: 1;
 }
 
 .div1{
-    padding: 3% 0;
+    padding: 0.6em 0;
 }
 
 .inicio{
     font-size: 2em;
     color: rgb(10, 10, 10);
     font-weight: 600;
-    margin: 35px 0 10px 0;
+    margin: 0.19em 0 0.6em 0;
 }
 .info{
     font-size: 1.2em;
     font-weight: 400;
-    margin-top: 30px;
+    margin-top: 1.86em;
 }
 .div1 h1{
     color: #2CA272;
@@ -91,14 +98,14 @@ nav a:hover{
 }
 .button{
     background-color: #2CA272;
-    border-radius: 50px;
-    height: 40px;
+    border-radius: 3em;
+    height: 3em;
     width: 200px;
     border: none;
     color: white;
     font-size: 1em;
     font-weight: bold;
-    margin: 35px 0;
+    margin: 2.19em 0;
 }
 .button:hover{
     background-color: #3bc08b;
@@ -114,6 +121,7 @@ nav a:hover{
 
 .conocimientos{
     background-color: #00ff990e;
+    width: 100%;
 }
 
 .intro{
@@ -121,18 +129,18 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 100px 430px 30px;
+    padding: 6em 26.88em 1.88em;
 }
 
 .intro h2{
-    padding-bottom: 30px;
+    padding-bottom: 0.8em;
     font-size: 3em;
     font-weight: 900;
 }
 
 .intro p{
     font-weight: 400;
-    padding: 0 50px;
+    padding: 0 3em;
 }
 
 .cajaprogramas{
@@ -143,23 +151,23 @@ nav a:hover{
     flex-wrap: wrap;
     align-content: center;
     margin: 0 auto;
-    padding-bottom: 100px;
+    padding-bottom: 6em;
 }
 
 .programas{
-    border: 1px solid  #70be9f;
-    margin: 15px;
-    padding: 50px 40px;
+    border: 0.06em solid  #70be9f;
+    margin: 0.94em;
+    padding: 3.12em 2.5em;
     text-align: center;
     width: 20%;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 0.31em;
 }
 
 .programas figcaption{
     font-weight: 700;
     font-size: 1.2em;
-    padding: 20px 0 0 0;
+    padding: 1.25em 0 0 0;
 }
 
 .programas img{
@@ -169,8 +177,8 @@ nav a:hover{
 
 .programas:hover , .programas figcaption:hover{
     color: #2CA272;
-    border: 2px #2CA272 solid;
-    border-radius: 5px;
+    border: 0.12em #2CA272 solid;
+    border-radius: 0.31em;
 
 }
 
@@ -183,26 +191,36 @@ nav a:hover{
 /*SECTION CLASS CITA*/
 
 .cita{
-    text-align: center;
-    padding: 70px 150px 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     background-color: #2CA272;
+
+
+}
+
+.flex-cita{
+    /*border: black 2px solid;*/
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 5em 25em;
 }
 
 .cita .comilla{
     font-size: 5em;
-    padding-top: 30px;
-}
-
-blockquote{
-    padding: 60px 200px;
-    color: white;
-    font-weight: 400;
-    font-size: 1.3em;
 }
 
 .cita h2{
     font-weight: 900;
-    padding-bottom: 45px;
+}
+
+blockquote{
+    color: white;
+    font-weight: 400;
+    font-size: 1.3em;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 /***************************************************************/
@@ -220,17 +238,22 @@ blockquote{
 }
 
 .hijx{
+    text-decoration: none;
+    color: black;
     text-align: center;
     width: 30%;
     margin: 15px;
     border-radius: 5px;
     border: 1px solid  #70be9f;
+    flex-shrink: 1;
+    flex-basis: 1
 }
 
 .hijx img{
     width: 75%;
     height: 75%;
-    margin: 20px;
+    /*margin: 20px;*/
+    object-fit: cover;
 }
 
 .hijx figcaption{
@@ -239,12 +262,125 @@ blockquote{
     font-weight: 600;
 }
 
-.hijx:hover , .hijx figcaption:hover{
+.hijx:hover , .hijx a:hover{
     color: #2CA272;
     border: 2px #2CA272 solid;
     border-radius: 5px;
 }
 
-.hijx figcaption:hover{
+.hijx a:hover{
     border: none;
+}
+
+/***************************************************************/
+
+/*SECTION CLASS CONTACTO*/
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    background-color: #00ff990e;
+}
+.bigbox{
+    border: 0.063em solid  #70be9f;
+    border-radius: 0.313em;
+    width: 80%;
+    background-color: white;
+    /*padding: 3em 0;*/
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+
+.box{
+    margin: 10px;
+    width: 37%;
+}
+
+.contactame{
+    border: 1px blue solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.textme{
+    border: 1px yellow solid;
+}
+
+.contacto h2{
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.redes{
+    display: flex;
+}
+
+.redes a,.fontawesome{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    word-spacing: 1em;
+    margin: 0.4em;
+}
+
+.redes .fontawesome{
+    color: #2CA272;
+}
+
+/***********************************************************/
+
+/*FOOTER*/
+
+footer{
+    background-color: #2CA272;
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.footermadre{
+    text-align: center;
+}
+
+.redireccion{
+    border: yellow 1 px solid;
+    word-spacing: 1.5em;
+    padding-bottom: 2.2em;
+}
+.redireccion a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+
+}
+
+.cajaredes{
+    padding-bottom: 2.2em;
+    display: flex;
+    justify-content: center;
+}
+
+.fontdif{
+    border-radius: 5em;
+    background-color: white;
+    padding: 0.8em;
+    color: #2CA272;
+
+}
+
+
+.fontdif:hover{
+    color: white;
+    background-color: #2CA272;
+    border-radius: 5em;
+    padding: 0.75em;
+}
+
+.footermadre p{
+    color: white;
+    font-size: 1.2em;
 }
