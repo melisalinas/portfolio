@@ -17,283 +17,288 @@
         <!--CSS: font-family: 'Raleway', sans-serif;-->
 
     </head>
-    <body>
 
-<!----------header+barra de navegación----------------->   
-        <header>
-            <nav>                       
+<body>
+
+    <!----------header+barra de navegación----------------->   
+    <header>
+        <nav>                       
+            <a href="#presentacion">HOLA</a>
+
+            <a href="#conocimientos">CONOCIMIENTOS</a>
+
+            <a href="#cajaproyectos">PROYECTOS</a>
+
+            <a class="contactoa" href="#contacto">CONTACTO</a>
+        </nav>
+    </header>
+
+    <main>
+        <!---------------mi presentación------------------->             
+        <section class="presentacion" id="presentacion">
+
+                    <div class="divs div1"> 
+                        <p class="inicio">¡Hola! Soy </p>
+                        <h1>Melisa Salinas</h1>
+                        <p class="info">Desarrolladora, licenciada en turismo, fan de la música y la lectura.</p>
+                        <button class="button">LO QUE HAGO</button>
+                        
+                    </div>
+
+                    <div class="divs div2"> 
+                        <img src="imagenes/home.svg" alt="caricatura frente a una computadora">
+                    </div>
+
+                </section>
+
+        <!--------------------mis conocimientos--------------------->    
+                <section class="sameboxes conocimientos" id="conocimientos"> 
+
+                    <div class="intro">
+                        <h2>Mis conocimientos</h2>
+                        <p> En desarrollo frontend mi base es HTML 5, CSS 3 y JavaScript como lenguaje de programación. Como complemento a mis conocimientos, sumé Sass y React. Actualmente continúo investigando y estudiando nuevas tecnologías. </p> 
+                    </div>
+
+                    <div class="cajaprogramas">
+                        
+                        <div class="programas">
+                            <figure class="introfigure">
+                                <img src="imagenes/html5.svg" alt="HTML 5">
+                                <figcaption>HTML 5</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="programas">
+                            <figure>
+                                <img src="imagenes/css-3.svg" alt="CSS 3">
+                                <figcaption>CSS 3</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="programas">
+                            <figure>
+                                <img src="imagenes/sass.svg" alt="SASS">
+                                <figcaption>SASS</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="programas">
+                            <figure>
+                                <img src="imagenes/js.svg.png" alt="JAVASCRIPT">
+                                <figcaption>JavaScript</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="programas">
+                            <figure>
+                                <img src="imagenes/react.svg.png" alt="REACT">
+                                <figcaption>REACT</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="programas">
+                            <figure>
+                                <img src="imagenes/git.svg" alt="GIT">
+                                <figcaption>GIT</figcaption>
+                            </figure>
+                        </div>
+
+                    </div>
+
+                </section>
+
+        <!-------------cita de Martin Luther King------------->
+                <section class="cita">
+                    <div class="flex-cita"> 
+                        <i class="fas fa-quote-right comilla"></i>
+                        <blockquote cite="Martin Luther King">
+                            Da tu primer paso ahora. No es necesario que veas el camino completo. Solo da el primer paso. El resto irá apareciendo a medida que camines.
+                        </blockquote>
+                    <h2>Martin Luther King</h2>
+                    </div> 
+                </section> 
+
+        <!----------------mis proyectos------------------------->
+        <section class="sameboxes cajaproyectos" id="cajaproyectos"> 
+
+            <div class="intro">
+                <h2>Mis proyectos</h2>
+                <p>Como resultado de los conocimientos anteriormente listados, mis proyectos son responsive, visualmente armoniosos e intuitivos. Mi primer gran reto como desarrolladora fue este portfolio, seguido por otros como el generador de memes. </p> 
+                </div>
+
+            <div class="proyectohijxs"> 
+
+                <a class="hijx" target="_blank" href="#">
+                    <figure>
+                    <img src="Imagenes/ejemplo.svg" alt="Porfolio">
+                    <figcaption>Portfolio</figcaption>
+                    </figure>
+                </a>
+        
+                <a class="hijx" target="_blank" href="#">
+                    <figure>
+                        <img src="imagenes/memes.svg" alt="Generador de memes">
+                        <figcaption>Generador de memes<figcaption>
+                    </figure>  
+                </a>
+
+                <a class="hijx" target="_blank" href="#">
+                    <figure>
+                        <img src="imagenes/match.svg" alt="Match 3">
+                        <figcaption>Match 3</figcaption>
+                    </figure>
+                </a>
+
+                <a class="hijx" target="_blank" href="#">
+                    <figure>
+                        <img src="imagenes/gastos.svg" alt="Controlador de gastos">
+                        <figcaption>Controlador de gastos<figcaption>
+                    </figure>
+                </a>
+
+                <a class="hijx" target="_blank" href="#">
+                    <figure>
+                        <img src="imagenes/reuniones.svg" alt="Administrador de reuniones">
+                        <figcaption>Administrador de reuniones<figcaption>
+                    </figure>
+                </a>
+
+                <a class="hijx" target="_blank" href="#">
+                    <figure>
+                        <img src="imagenes/apps.svg" alt="Todo app">
+                        <figcaption>Todo app</figcaption>
+                    </figure>
+                </a>
+
+                <a class="hijx" target="_blank" href="#">
+                    <figure>
+                        <img src="imagenes/movie.svg" alt="Buscador de películas">
+                        <figcaption>Buscador de películas<figcaption>   
+                    </figure>
+                </a>
+                        
+            </div>
+
+        </section>
+
+        <!-----------------formas de contactarme------------------->
+        <section id="contacto" class="contacto"> 
+
+            <div class="bigbox">
+
+                <div class="box contactame">
+                    <div class="caja1">
+                        <h2>Contactame</h2>
+                        <p class="textocontacto">Me podés contactar en las siguientes redes sociales como también por mi GitHub. Sino podés dejarme un mensaje y a la brevedad te voy a responder. Gracias!</p>
+                    </div> 
+
+                    <div class="socialmedia"> 
+
+                        <div class="redes">
+                            <a href="https://twitter.com/meli_salinas94"> <i class="fontawesome fab fa-twitter"></i> @meli_salinas94</a>
+                        </div>
+
+                        <div class="redes">
+                            <a href="https://github.com/melisalinas"> <i class="fontawesome fab fa-github-square"></i> melisalinas</a> 
+                        </div>
+
+                        <div class="redes">
+                            <a href="https://www.linkedin.com/in/melisa-beatriz-salinas-zuttion-279845148/"> <i class="fontawesome fab fa-linkedin"></i> melisasalinas</a>
+                        </div>
+
+                        <div class="redes">
+                            <a href="#"> <i class="fontawesome fas fa-envelope"></i> melisa94salinas@gmail.com</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="box escribime">
+                    <!------------FORMULARIO------------->
+                    <form>
+
+                        <h2>Escribime</h2>
+
+                        <div class="fieldmom">
+                            <div class="fieldmommy">
+                                <div class="fields field1 fieldname">
+                                    <label for="nombre">Nombre:*</label>
+                                    <input type="text" placeholder="Escribe tu nombre" name="nombre" id="nombre">
+                                </div>
+
+                                <div class="fields field1">
+                                    <label for="apellido">Apellido:*</label>
+                                    <input type="text" placeholder="Escribe tu apellido" name="apellido" id="apellido">
+                                </div>
+                            </div>
+
+                            <div class="fields field2">
+                                <label for="email">Email:*</label>
+                                <input type="email" placeholder="Escribe tu email" name="email" id="email">
+                            </div>
+
+                            <div class="fields field2">
+                                <label for="message">Mensaje:</label>
+                                <textarea class="mensaje" id="message" placeholder="Escribe tu mensaje" name="message"></textarea>
+                            </div>
+                        </div>
+
+                        <button>Enviar</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!------------------------footer----------------------------->
+    <footer>
+
+        <div class="footermadre">
+
+            <div class="redireccion">
+
                 <a href="#presentacion">HOLA</a>
 
                 <a href="#conocimientos">CONOCIMIENTOS</a>
 
                 <a href="#cajaproyectos">PROYECTOS</a>
 
-                <a class="contactoa" href="#contacto">CONTACTO</a>
-            </nav>
-        </header>
+                <a href="#contacto">CONTACTO</a>   
 
-        <main>
-<!---------------mi presentación------------------->             
-            <section class="presentacion" id="presentacion">
-
-                <div class="divs div1"> 
-                    <p class="inicio">¡Hola! Soy </p>
-                    <h1>Melisa Salinas</h1>
-                    <p class="info">Desarrolladora, licenciada en turismo, fan de la música y la lectura.</p>
-                    <button class="button">LO QUE HAGO</button>
-                    
-                </div>
-
-                <div class="divs div2"> 
-                    <img src="imagenes/home.svg" alt="caricatura frente a una computadora">
-                </div>
-
-            </section>
-
-<!--------------------mis conocimientos--------------------->    
-            <section class="sameboxes conocimientos" id="conocimientos"> 
-
-                <div class="intro">
-                    <h2>Mis conocimientos</h2>
-                    <p> En desarrollo frontend mi base es HTML 5, CSS 3 y JavaScript como lenguaje de programación. Como complemento a mis conocimientos, sumé Sass y React. Actualmente continúo investigando y estudiando nuevas tecnologías. </p> 
-                </div>
-
-                <div class="cajaprogramas"> <!--íconos de los programas-->
-                    
-                    <div class="programas">
-                        <figure class="introfigure">
-                            <img src="imagenes/html5.svg" alt="HTML 5">
-                            <figcaption>HTML 5</figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="programas">
-                        <figure>
-                            <img src="imagenes/css-3.svg" alt="CSS 3">
-                            <figcaption>CSS 3</figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="programas">
-                        <figure>
-                            <img src="imagenes/sass.svg" alt="SASS">
-                            <figcaption>SASS</figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="programas">
-                        <figure>
-                            <img src="imagenes/js.svg.png" alt="JAVASCRIPT">
-                            <figcaption>JavaScript</figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="programas">
-                        <figure>
-                            <img src="imagenes/react.svg.png" alt="REACT">
-                            <figcaption>REACT</figcaption>
-                        </figure>
-                    </div>
-
-                    <div class="programas">
-                        <figure>
-                            <img src="imagenes/git.svg" alt="GIT">
-                            <figcaption>GIT</figcaption>
-                        </figure>
-                    </div>
-
-                </div>
-
-            </section>
-
-<!-------------cita de Martin Luther King------------->
-            <section class="cita">
-                <div class="flex-cita"> 
-                    <i class="fas fa-quote-right comilla"></i>
-                    <blockquote cite="Martin Luther King">
-                        Da tu primer paso ahora. No es necesario que veas el camino completo. Solo da el primer paso. El resto irá apareciendo a medida que camines.
-                    </blockquote>
-                   <h2>Martin Luther King</h2>
-                </div> 
-            </section> 
-
-<!----------------mis proyectos------------------------->
-            <section class="sameboxes cajaproyectos" id="cajaproyectos"> 
-
-                <div class="intro">
-                    <h2>Mis proyectos</h2>
-                    <p>Como resultado de los conocimientos anteriormente listados, mis proyectos son responsive, visualmente armoniosos e intuitivos. Mi primer gran reto como desarrolladora fue este portfolio, seguido por otros como el generador de memes. </p> 
-                </div>
-
-                <div class="proyectohijxs"> 
-
-                        <a class="hijx" target="_blank" href="#">
-                            <figure>
-                                <img src="Imagenes/ejemplo.svg" alt="Porfolio">
-                                <figcaption>Portfolio</figcaption>
-                            </figure>
-                        </a>
-
-
-    
-                        <a class="hijx" target="_blank" href="#">
-                            <figure>
-                                <img src="imagenes/memes.svg" alt="Generador de memes">
-                                <figcaption>Generador de memes<figcaption>
-                            </figure>  
-                        </a>
-
-
-                        <a class="hijx" target="_blank" href="#">
-                            <figure>
-                                <img src="imagenes/match.svg" alt="Match 3">
-                                <figcaption>Match 3</figcaption>
-                            </figure>
-                        </a>
-
-
-                        <a class="hijx" target="_blank" href="#">
-                            <figure>
-                                <img src="imagenes/gastos.svg" alt="Controlador de gastos">
-                                <figcaption>Controlador de gastos<figcaption>
-                            </figure>
-                        </a>
-
-
-                        <a class="hijx" target="_blank" href="#">
-                            <figure>
-                                <img src="imagenes/reuniones.svg" alt="Administrador de reuniones">
-                                <figcaption>Administrador de reuniones<figcaption>
-                            </figure>
-                        </a>
-
-
-
-                        <a class="hijx" target="_blank" href="#">
-                            <figure>
-                                <img src="imagenes/apps.svg" alt="Todo app">
-                                <figcaption>Todo app</figcaption>
-                            </figure>
-                        </a>
- 
-
-
-                        <a class="hijx" target="_blank" href="#">
-                            <figure>
-                                <img src="imagenes/movie.svg" alt="Buscador de películas">
-                                <figcaption>Buscador de películas<figcaption>   
-                            </figure>
-                        </a>
-
-                    
-                </div>
-
-            </section>
-
-<!-----------------formas de contactarme------------------->
-            <section id="contacto" class="contacto"> 
-                <div class="bigbox">
-                    <div class="box contactame">
-                        <div class="caja1">
-                            <h2>Contactame</h2>
-                            <p class="textocontacto">Me podés contactar en las siguientes redes sociales como también por mi GitHub. Sino podés dejarme un mensaje y a la brevedad te voy a responder. Gracias!</p>
-                        </div> 
-
-                        <div class="socialmedia"> 
-
-                            <div class="redes">
-                                <a href="https://twitter.com/meli_salinas94"> <i class="fontawesome fab fa-twitter"></i> @meli_salinas94</a>
-                            </div>
-
-                            <div class="redes">
-                                <a href="https://github.com/melisalinas"> <i class="fontawesome fab fa-github-square"></i> melisalinas</a> 
-                            </div>
-
-                            <div class="redes">
-                                <a href="https://www.linkedin.com/in/melisa-beatriz-salinas-zuttion-279845148/"> <i class="fontawesome fab fa-linkedin"></i> melisasalinas</a>
-                            </div>
-
-                            <div class="redes">
-                                <a href="#"> <i class="fontawesome fas fa-envelope"></i> melisa94salinas@gmail.com</a>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="box escribime">
-                        <!------------FORMULARIO------------->
-                        <form>
-
-                            <h2>Escribime</h2>
-
-                            <label for="nombre">Nombre:*
-                            <input type="text" placeholder="Escribe tu nombre" name="nombre" id="nombre"></label>
-
-                            <label for="apellido">Apellido:*</label>
-                            <input type="text" placeholder="Escribe tu apellido" name="apellido" id="apellido">
-
-                            <label for="email">Email:*</label>
-                            <input type="email" placeholder="Escribe tu email" name="email" id="email">
-
-                            <label for="message">Mensaje:</label>
-                            <textarea id="message" placeholder="Escribe tu mensaje" name="message"></textarea>
-
-                            <button>Enviar</button>
-
-                        </form>
-
-                    </div>
-                </div>
-            </section>
-        </main>
-<!------------------------footer----------------------------->
-        <footer>
-
-            <div class="footermadre">
-
-                <div class="redireccion">
-
-                    <a href="#presentacion">HOLA</a>
-
-                    <a href="#conocimientos">CONOCIMIENTOS</a>
-
-                    <a href="#cajaproyectos">PROYECTOS</a>
-
-                    <a href="#contacto">CONTACTO</a>   
-
-                </div>
-
-
-
-                <div class="cajaredes">
-
-                    <div class="redes2">
-                        <a href="https://twitter.com/meli_salinas94"> <i class="fontawesome fontdif fab fa-twitter"></i> 
-                        </a>
-                    </div>
-
-                    <div class="redes2">
-                        <a href="https://github.com/melisalinas"> <i class="fontawesome fontdif fab fa-github-square"></i> 
-                        </a> 
-                    </div>
-
-                    <div class="redes2">
-                        <a href="https://www.linkedin.com/in/melisa-beatriz-salinas-zuttion-279845148/"> <i class="fontawesome fontdif fab fa-linkedin"></i>
-                        </a>
-                    </div>
-
-                    <div class="redes2">
-                        <a href="#"> <i class="fontawesome fontdif fas fa-envelope"></i>
-                        </a>
-                    </div>
-
-                </div>
-
-                <p>Hecho con <i class="amor fas fa-heart"></i> por Melisa</p>
             </div>
-        </footer>
-    
 
-    </body>
+
+
+            <div class="cajaredes">
+
+                <div class="redes2">
+                    <a href="https://twitter.com/meli_salinas94"> <i class="fontawesome fontdif fab fa-twitter"></i> 
+                    </a>
+                </div>
+
+                <div class="redes2">
+                    <a href="https://github.com/melisalinas"> <i class="fontawesome fontdif fab fa-github-square"></i> 
+                    </a> 
+                </div>
+
+                <div class="redes2">
+                    <a href="https://www.linkedin.com/in/melisa-beatriz-salinas-zuttion-279845148/"> <i class="fontawesome fontdif fab fa-linkedin"></i>
+                    </a>
+                </div>
+
+                <div class="redes2">
+                    <a href="#"> <i class="fontawesome fontdif fas fa-envelope"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <p>Hecho con <i class="amor fas fa-heart"></i> por Melisa</p>
+
+        </div>
+
+    </footer>
+
+</body>
 </html>
