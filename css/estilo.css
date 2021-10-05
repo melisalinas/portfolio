@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
     font-family: 'Raleway', sans-serif;
@@ -34,6 +35,7 @@ nav a{
     text-decoration: none;
     color: black;
     font-size: 1.1em;
+    padding: 0.5em
 }
 
 .contactoa{
@@ -46,6 +48,20 @@ nav a{
 
 nav a:hover{
     color: #3bc08b;
+}
+
+nav a:active{
+    /*border: 0.05em #2CA272 solid;*/
+    padding: 0.3em 0.28em;
+    border-radius: 2em;
+    box-shadow: 0.13em 0.05em 0.5em 0.3em #00ff991e;
+}
+
+nav .contactoa:active{
+    box-shadow: 0.13em 0.07em 0.5em 0.3em #00ff991e;
+    padding: 0.58em 1.58em;
+    border: none;
+    background-color: #2CA272;
 }
 
 .contactoa:hover{
@@ -77,7 +93,8 @@ nav a:hover{
 }
 
 .div1{
-    padding: 0.6em 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .inicio{
@@ -97,9 +114,11 @@ nav a:hover{
     font-weight: 900;
 }
 .button{
+    text-align: center;
+    text-decoration: none;
     background-color: #2CA272;
+    padding: 1em;
     border-radius: 3em;
-    height: 3em;
     width: 200px;
     border: none;
     color: white;
@@ -109,6 +128,11 @@ nav a:hover{
 }
 .button:hover{
     background-color: #3bc08b;
+    cursor: pointer;
+}
+
+.button:active{
+    box-shadow: 0.13em 0.05em 0.5em 0.3em #00ff991e;
 }
 
 .div2 img{
@@ -119,32 +143,38 @@ nav a:hover{
 
 /*SECTION CLASS CONOCIMIENTOS*/
 
+.conocimientos{
+    background-color: #00ff990e;;
+}
+.cajasiguales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 .sameboxes{
     display: flex;
-    flex-direction: column;
-    background-color: #00ff990e;
-    width: 100%;
-}
-
-.intro{
-    /*border: 1px solid black;*/
-    display: flex;
+    width: 30%;
     flex-direction: column;
     text-align: center;
-    padding: 6em 26.88em 1.88em;
 }
 
-.intro h2{
-    padding-bottom: 0.8em;
+.sameboxes h2{
     font-size: 3em;
     font-weight: 900;
+    padding-bottom: 0.8em;
 }
 
-.intro p{
+.sameboxes p{
     font-weight: 400;
-    padding: 0 3em;
+    padding-bottom: 1.5em;
+    letter-spacing: 0.08em;
+    line-height: 1.3em;
 }
 
+.intro1 h2{
+    padding-top: 3em;
+}
 .cajaprogramas{
     display: flex;
     /*border: 1px solid #70be9f;*/
@@ -153,6 +183,7 @@ nav a:hover{
     flex-wrap: wrap;
     align-content: center;
     margin: 0 auto;
+    padding-top: 1em;
     padding-bottom: 6em;
 }
 
@@ -178,8 +209,9 @@ nav a:hover{
 
 .programas:hover , .programas figcaption:hover{
     color: #2CA272;
-    border: 0.08em #2CA272 solid;
+    border: 0.06em #2CA272 solid;
     border-radius: 0.31em;
+    cursor: default;
 
 }
 
@@ -196,8 +228,6 @@ nav a:hover{
     display: flex;
     justify-content: center;
     background-color: #2CA272;
-
-
 }
 
 .flex-cita{
@@ -232,6 +262,9 @@ blockquote{
     background-color: white;
 }
 
+.intro2 h2{
+    padding-top: 2em;
+}
 .proyectohijxs{
     display: flex;
     justify-content:flex-start;
@@ -286,21 +319,21 @@ blockquote{
     background-color: #00ff990e;
 }
 .bigbox{
-    border: 0.063em solid  #74b49b;
+
     border-radius: 0.313em;
     width: 80%;
     background-color: white;
-    /*padding: 3em 0;*/
     display: flex;
     justify-content:space-around;
     padding-top: 4em;
     padding-bottom: 4em;
     margin-top: 10em;
     margin-bottom: 10em;
+    border: 0.01em solid  #85b8a4;
 }
 
 .box{
-    width: 35%;
+    width: 40%;
 }
 
 /*propiedades box contactame*/
@@ -353,15 +386,14 @@ blockquote{
 /*propiedades box escribime*/
 
 .escribime{
-    border: 1px yellow solid;
     font-size: 1em;
-    padding: 0.5em;
-}
-
-.escribime form h2{
     padding-bottom: 0.5em;
 }
 
+.escribime form h2{
+    padding-bottom: 0.2em;
+}
+       
 .fields{
     width: 100%;
 }
@@ -380,7 +412,6 @@ blockquote{
 }
 
 .fieldmommy{
-    border: chartreuse 1px solid;
     display: flex;
     width: 100%;
 }
@@ -399,15 +430,29 @@ blockquote{
 
 .escribime input, .mensaje{
     box-sizing: border-box;
-    padding: 0.9em;
-    background-color: #00ff990e;
+    padding: 0.8em;
+    background-color: #00ff9918;
     border-radius: 2em;
     border: none;
 }
 
-.mensaje{
+.escribime .mensaje{
     resize:both;
-    min-height: 3.5em;
+    margin-bottom: 1em;
+    height: 13em;
+    border-radius: 1em;
+}
+
+.escribime 
+
+form .botonsend{
+    padding: 1.1em 2.4em;
+    border-radius: 2em;
+    background-color: #2CA272;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+
 }
 
 /***********************************************************/
@@ -443,7 +488,7 @@ footer{
 }
 
 .redes2{
-    margin-right: 1.5em;
+    margin: 0 1em; 
 }
 
 .fontdif{
