@@ -25,9 +25,9 @@ header{
 nav{
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-right: 3em;
-    align-items: baseline;
+    align-items: baseline;    
 
 }
 
@@ -35,7 +35,7 @@ nav a{
     text-decoration: none;
     color: black;
     font-size: 1.1em;
-    padding: 0.5em
+    padding: 0.4em;
 }
 
 .contactoa{
@@ -51,9 +51,9 @@ nav a:hover{
 }
 
 nav a:active{
-    /*border: 0.05em #2CA272 solid;*/
-    padding: 0.3em 0.28em;
+    border: 0.05em #2CA272 solid;
     border-radius: 2em;
+    padding: 0.285em;
     box-shadow: 0.13em 0.05em 0.5em 0.3em #00ff991e;
 }
 
@@ -377,6 +377,7 @@ blockquote{
     color: white;
     background-color: #2CA272;
     padding: 0.6em;
+    transition: 0.2s;
 }
 
 .redes:hover a{
@@ -428,6 +429,16 @@ blockquote{
     width: 100%;
 }
 
+form .fields input, .mensaje{
+    outline: none;
+    transition: 0.2s;
+}
+
+form .fields input:focus, .mensaje:focus{
+    box-shadow: 0 0.1em 0.5em 0.1em #00ff996e;
+    transition: 0.2s;
+}
+
 .escribime input, .mensaje{
     box-sizing: border-box;
     padding: 0.8em;
@@ -442,8 +453,6 @@ blockquote{
     height: 13em;
     border-radius: 1em;
 }
-
-.escribime 
 
 form .botonsend{
     padding: 1.1em 2.4em;
@@ -481,6 +490,10 @@ footer{
     font-size: 1em;
 }
 
+.footermadre .redireccion a:active{
+    box-shadow: 0.20em 0.1em 1.5em 0.1em #ffffff73;
+}
+
 .cajaredes{
     padding-bottom: 2.2em;
     display: flex;
@@ -489,6 +502,11 @@ footer{
 
 .redes2{
     margin: 0 1em; 
+}
+
+.footermadre .cajaredes .redes2:active{
+    border-radius: 5em;
+    box-shadow: 0.20em 0.1em 1.5em 0.1em #ffffff73;
 }
 
 .fontdif{
