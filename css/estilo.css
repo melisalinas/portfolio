@@ -144,41 +144,28 @@ nav .contactoa:active{
 /*SECTION CLASS CONOCIMIENTOS*/
 
 .conocimientos{
-    background-color: #00ff990e;;
-}
-
-.conocimientosyproyectos{
+    background-color: #00ff990e;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.sameboxes{
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
-.sameboxes h2{
+.intro1 h2{
     font-size: 3em;
     font-weight: 900;
     padding-bottom: 0.8em;
+    padding-top: 3em;
 }
 
-.sameboxes p{
+.intro1 p{
     font-weight: 400;
     padding-bottom: 1.5em;
     letter-spacing: 0.08em;
     line-height: 1.3em;
-    max-width: 450px;
-    
+    max-width: 450px; 
 }
 
-.intro1 h2{
-    padding-top: 3em;
-}
 .cajaprogramas{
     display: flex;
     justify-content: center;
@@ -263,56 +250,85 @@ blockquote{
 
 /*SECTION CLASS PROYECTOS*/
 
-.intro2 h2{
-    padding-top: 2em;
-}
-.proyectohijxs{
+.cajaproyectos{
+    background-color: #00ff990e;
     display: flex;
-    justify-content:flex-start;
-    width: 90%;
-    flex-wrap: wrap;
-    align-content: center;
-    margin: 1.25em auto 3.13em auto;
-    padding-bottom: 6.25em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 6.5em;
+    padding-right: 5em;
 }
 
-.hijx{
+.intropro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.cajaproyectos .intropro h2{
+    padding-top: 3em;
+    font-size: 3em;
+    font-weight: 900;
+    padding-bottom: 0.8em;
+}
+
+.cajaproyectos .intropro p{
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 1.5em;
+    letter-spacing: 0.08em;
+    line-height: 1.3em;
+    max-width: 450px;
+}
+
+.hijxspro{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 7em;
+}
+
+.hijxspro .hijxp{
     text-decoration: none;
     color: black;
     text-align: center;
+    border: 0.02em solid  #70be9f;
+    margin: 1em;
+    padding: 1.5em;
     width: 25%;
-    margin: 0.94em;
+    background-color: white;
     border-radius: 0.31em;
-    border: 0.063em solid  #70be9f;
-    flex-shrink: 1;
-    flex-basis: 1
 }
 
-
-.hijx img{
+.hijxspro .hijxp img{
     width: 75%;
     margin: 1em;
 }
 
-.hijx figcaption{
+.hijxspro .hijxp figcaption{
     margin: 0.63em 0 2.19em;
     font-size: 1em;
     font-weight: 600;
 }
 
-.hijx:hover , .hijx a:hover{
+.hijxspro .hijxp:hover , .hijxp a:hover{
     color: #2CA272;
     border: 0.07em #2CA272 solid;
     border-radius: 0.31em;
 }
 
-.hijx a:hover{
+.hijxspro a:hover{
     border: none;
 }
 
-.hijx:active{
+.hijxspro .hijx:active{
     box-shadow: 0 0.1em 0.5em 0.1em #00ff996e;
 }
+
+
 /***************fin class proyectos*********************/
 
 /*SECTION CLASS CONTACTO*/
