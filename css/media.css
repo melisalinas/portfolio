@@ -13,10 +13,11 @@
 }
 
 @media(max-width: 1168px){
-
+    /*section proyectos*/
     .cajaproyectos .hijxspro .hijxp{
         width: 30%;
     }
+    /*fin section proyectos*/
 }
 
 @media(max-width: 1100px){
@@ -52,6 +53,9 @@
     /*section contacto*/
     .contacto{
         background-color: white;
+        box-shadow: -10px 2px 10px -3px #00ff991e inset;
+        box-sizing: border-box;
+        padding: 0.5em 1.5em 0.5em 0.5em;
     }
 
     .contacto .bigbox{
@@ -60,7 +64,9 @@
         background-color: white;
         margin-top: 0;
         padding-top: 0;
-        width: 100%;
+        width: 95%;
+        padding-bottom: 0;
+        margin-bottom: 4em;
     }
 
     .contacto .bigbox .box{
@@ -96,9 +102,11 @@
 }
 
 @media(max-width: 700px){
+    /*footer*/
     footer .footermadre .redireccion{
         display: none;
     }
+    /*fin footer*/
 }
 @media(max-width: 594px){
 
@@ -121,6 +129,24 @@
 
     }
     /*fin section proyectos*/
+
+    /*section contacto*/
+    .contacto .bigbox .contactame .socialmedia{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contacto .bigbox .contactame .socialmedia .redes{
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 380px){
+    .escribime .fieldmom input, label{
+        font-size: 0.9em;
+    }
+    
 }
 
 

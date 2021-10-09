@@ -451,12 +451,10 @@ blockquote{
 
 form .fields input, .mensaje{
     outline: none;
-    transition: 0.2s;
 }
 
 form .fields input:focus, .mensaje:focus{
     box-shadow: 0 0.1em 0.5em 0.1em #00ff996e;
-    transition: 0.2s;
 }
 
 .escribime input, .mensaje{
