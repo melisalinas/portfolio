@@ -140,7 +140,7 @@ nav .contactoa:active{
 
 /*SECTION CLASS CONOCIMIENTOS*/
 
-.conocimientos{
+.conocimientos, .cajaproyectos{
     background-color: #00ff990e;
     display: flex;
     flex-direction: column;
@@ -148,14 +148,14 @@ nav .contactoa:active{
     text-align: center;
 }
 
-.conocimientos h2{
+.conocimientos h2, .cajaproyectos h2{
     font-size: 3em;
     font-weight: 900;
     padding-bottom: 0.8em;
     padding-top: 3em;
 }
 
-.conocimientos p{
+.conocimientos p, .cajaproyectos p{
     font-weight: 400;
     padding-bottom: 1.5em;
     letter-spacing: 0.08em;
@@ -166,7 +166,7 @@ nav .contactoa:active{
 .cajaprogramas{
     
     max-width: 1100px;
-   /* min-width: 380px;*/
+    min-width: 320px;
     display: flex;
     justify-content: center;
     width: 60%;
@@ -251,37 +251,10 @@ blockquote{
 /*SECTION CLASS PROYECTOS*/
 
 .cajaproyectos{
-    background-color: #00ff990e;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     padding-left: 6.5em;
     padding-right: 5em;
 }
 
-.intropro{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
-}
-.cajaproyectos .intropro h2{
-    padding-top: 3em;
-    font-size: 3em;
-    font-weight: 900;
-    padding-bottom: 0.8em;
-}
-
-.cajaproyectos .intropro p{
-    text-align: center;
-    font-weight: 400;
-    padding-bottom: 1.5em;
-    letter-spacing: 0.08em;
-    line-height: 1.3em;
-    max-width: 450px;
-}
 
 .hijxspro{
     display: flex;
@@ -438,18 +411,20 @@ blockquote{
     width: 100%;
 }
 
-.field-name
+.field-name{
+    margin-right: 0.5em;
+}
+
+.field-surname{
+    margin-left: 0.5em;
+}
 .field1{
     flex-grow: 1;
     width: 50%;
 }
 
-.field1 input{
+.field1 input, .field2 input, .mensaje{
    width: 100%; 
-}
-
-.field2 input, .mensaje{
-    width: 100%;
 }
 
 form .fields input, .mensaje{

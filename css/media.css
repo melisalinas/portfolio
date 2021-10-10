@@ -94,14 +94,6 @@
     /*fin section contacto*/
 }
 
-@media(max-width: 700px){
-    /*footer*/
-    footer .footermadre .redireccion{
-        display: none;
-    }
-    /*fin footer*/
-}
-
 @media(max-width: 732px){
 
     /*section proyectos*/
@@ -138,13 +130,15 @@
     /*fin section contacto*/
 }
 
-@media(max-width: 380px){
-    /*form*/
-    .escribime .fieldmom input, label{
-        font-size: 0.9em;
+@media(max-width: 700px){
+    /*footer*/
+    footer .footermadre .redireccion{
+        display: none;
     }
-    /*fin form*/
+    /*fin footer*/
 }
+
+
 
 @media(max-width: 500px){
     /*section contacto*/
@@ -159,4 +153,22 @@
         width: 100%;
     }
     /*fin section contacto*/
+}
+
+@media(max-width: 380px){
+    /*form*/
+    .escribime .fieldmom input, label{
+        font-size: 0.9em;
+    }
+    /*fin form*/
+}
+
+@media(max-width: 360px){
+    .conocimientos h2{
+        font-size: 2em;
+    }
+
+    .cajaproyectos h2{
+        font-size: 2em;
+    }
 }
