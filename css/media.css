@@ -1,17 +1,4 @@
-@media(max-width: 1296px){
-    /*section conocimientos*/
-    .conocimientos{
-        padding: 1em;
-    }
 
-    .cajaprogramas{
-        width: 100%;
-    }
-    .cajaprogramas .programas{
-        width: 30%;
-    }
-    /*fin section conocimientos*/
-}
 
 @media(max-width: 1168px){
     /*section proyectos*/
