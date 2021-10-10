@@ -49,6 +49,13 @@
     /*fin section presentación*/
 }
 
+
+@media(max-width: 1025px){
+    .escribime .fields input{
+    font-size: 0.9em;
+    }
+}
+
 @media(max-width: 900px){
 
     /*section contacto*/
@@ -117,6 +124,7 @@
     .cajaproyectos .hijxspro{
         padding: 1em;
         width: 100%;
+        margin-bottom: 2em;
     }
     .cajaproyectos .hijxspro .hijxp{
         margin: 1em 0;
@@ -138,6 +146,7 @@
 
     .contacto .bigbox .contactame .socialmedia .redes{
         width: 100%;
+        justify-content: center;
     }
     /*fin section contacto*/
 }
@@ -150,5 +159,17 @@
     /*fin form*/
 }
 
+@media(max-width: 500px){
+    /*section contacto*/
+    .escribime form .fieldmommy{
+        flex-direction: column;
+    }
 
-
+    .escribime form .fieldmommy .field1{
+        width: 100%;
+    }
+    .escribime form .fieldmommy .field1 input{
+        width: 100%;
+    }
+    /*fin section contacto*/
+}
