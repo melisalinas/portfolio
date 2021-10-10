@@ -1,5 +1,5 @@
 @media(max-width: 1296px){
-
+    /*section conocimientos*/
     .conocimientos{
         padding: 1em;
     }
@@ -10,12 +10,13 @@
     .cajaprogramas .programas{
         width: 30%;
     }
+    /*fin section conocimientos*/
 }
 
 @media(max-width: 1168px){
     /*section proyectos*/
     .cajaproyectos .hijxspro .hijxp{
-        width: 30%;
+        width: 35%;
     }
     /*fin section proyectos*/
 }
@@ -96,9 +97,7 @@
         margin-top: 1em;
         margin-bottom: 1em;
     }
-
     /*fin section contacto*/
-
 }
 
 @media(max-width: 700px){
@@ -108,7 +107,8 @@
     }
     /*fin footer*/
 }
-@media(max-width: 594px){
+
+@media(max-width: 732px){
 
     /*section proyectos*/
     .cajaproyectos{
@@ -139,14 +139,15 @@
     .contacto .bigbox .contactame .socialmedia .redes{
         width: 100%;
     }
-
+    /*fin section contacto*/
 }
 
 @media(max-width: 380px){
+    /*form*/
     .escribime .fieldmom input, label{
         font-size: 0.9em;
     }
-    
+    /*fin form*/
 }
 
 
