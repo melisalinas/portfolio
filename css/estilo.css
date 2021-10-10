@@ -99,17 +99,18 @@ nav .contactoa:active{
     margin: 0.19em 0 0.6em 0;
 }
 
+.div1 h1{
+    color: #2CA272;
+    font-size: 3.8em;
+    font-weight: 900;
+}
+
 .info{
     font-size: 1.2em;
     font-weight: 400;
     margin-top: 1.86em;
 }
 
-.div1 h1{
-    color: #2CA272;
-    font-size: 3.8em;
-    font-weight: 900;
-}
 .button{
     text-align: center;
     text-decoration: none;
@@ -140,6 +141,7 @@ nav .contactoa:active{
 
 /*SECTION CLASS CONOCIMIENTOS*/
 
+/*propiedades compartidas con clase proyectos*/
 .conocimientos, .cajaproyectos{
     background-color: #00ff990e;
     display: flex;
@@ -162,6 +164,7 @@ nav .contactoa:active{
     line-height: 1.3em;
     max-width: 450px; 
 }
+/*fin de propiedades compartidas con clase proyectos*/
 
 .cajaprogramas{
     
@@ -411,16 +414,17 @@ blockquote{
     width: 100%;
 }
 
+.field1{
+    flex-grow: 1;
+    width: 50%;
+}
+
 .field-name{
     margin-right: 0.5em;
 }
 
 .field-surname{
     margin-left: 0.5em;
-}
-.field1{
-    flex-grow: 1;
-    width: 50%;
 }
 
 .field1 input, .field2 input, .mensaje{
