@@ -254,53 +254,60 @@ blockquote{
 /*SECTION CLASS PROYECTOS*/
 
 .cajaproyectos{
-    padding-left: 6.5em;
-    padding-right: 5em;
-}
-
-
-.hijxspro{
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    align-content: center;
-    margin-bottom: 7em;
+    justify-content: center;
+    text-align: center;
+}
+.contenedorproyectos{
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.hijxspro .hijxp{
-    text-decoration: none;
-    color: black;
-    text-align: center;
-    border: 0.02em solid  #70be9f;
-    margin: 1em;
-    padding: 1.5em;
-    width: 25%;
+.proyectos-flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    padding-bottom: 8em;
+}
+
+.siblings{
+    display: flex;
+    flex-direction: column;
     background-color: white;
     border-radius: 0.31em;
+    text-decoration: none;
+    color: black;
+    border: 0.02em solid  #70be9f;
+    margin: 1.035em;
+    padding: 0 1.5em 1.5em;
+    width: 25.65%;
+
 }
 
-.hijxspro .hijxp img{
-    width: 75%;
-    margin: 1em;
+.siblings img{
+    width: 100%;
+    margin: 0.5em;
 }
 
-.hijxspro .hijxp figcaption{
-    margin: 0.63em 0 2.19em;
+.siblings figcaption{
     font-size: 1em;
     font-weight: 600;
 }
 
-.hijxspro .hijxp:hover , .hijxp a:hover{
+.siblings:hover , .siblings a:hover{
     color: #2CA272;
     border: 0.07em #2CA272 solid;
     border-radius: 0.31em;
 }
 
-.hijxspro a:hover{
+.siblings a:hover{
     border: none;
 }
 
-.hijxspro .hijx:active{
+.siblings:active{
     box-shadow: 0 0.1em 0.5em 0.1em #00ff996e;
 }
 

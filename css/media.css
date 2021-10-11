@@ -1,12 +1,23 @@
-
-
-@media(max-width: 1168px){
-    /*section proyectos*/
-    .cajaproyectos .hijxspro .hijxp{
-        width: 35%;
+ /*section proyectos*/
+@media(max-width: 1140px){
+    .cajaproyectos .contenedorproyectos .siblings{
+        width: 40%;
     }
-    /*fin section proyectos*/
 }
+
+@media(max-width: 874px){
+    .proyectos-flex{
+        justify-content: center;
+    }
+}
+
+
+@media(max-width: 440px){
+    .proyectos-flex .siblings{
+        min-width: 11em;
+    }
+}
+/*fin section proyectos*/
 
 @media(max-width: 1100px){
 
@@ -38,21 +49,21 @@
 
 
 @media(max-width: 1025px){
+    /*form*/
     .escribime .fields input{
     font-size: 0.9em;
     }
+    /*fin form*/
 }
 
 @media(max-width: 900px){
-
     /*section contacto*/
     .contacto{
         background-color: white;
         box-shadow: -10px 2px 10px -3px #00ff991e inset;
         box-sizing: border-box;
-        padding: 0.5em 1.5em 0.5em 0.5em;
+        padding: 2em 1.5em 0.5em 0.5em;
     }
-
     .contacto .bigbox{
         flex-direction: column;
         border: none;
@@ -63,66 +74,43 @@
         padding-bottom: 0;
         margin-bottom: 4em;
     }
-
     .contacto .bigbox .box{
         width: 100%;
     }
-
     .contacto .bigbox .contactame{
         text-align: center;
     }
-
     .contacto .bigbox .contactame .socialmedia{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
     }
-
     .contacto .bigbox .contactame .socialmedia .redes{
         width: 50%;
     }
-
     .contacto .bigbox .escribime{
         padding: 0.5em;
     }
-
     .contacto .bigbox .escribime h2{
         text-align: center;
         margin-top: 1em;
         margin-bottom: 1em;
     }
     /*fin section contacto*/
+
+    /*section proyectos*/
+    .proyectos-flex{
+        padding-bottom: 3em;
+    }
+    /*fin section proyectos*/
 }
 
 @media(max-width: 732px){
-
-    /*section proyectos*/
-    .cajaproyectos{
-        padding: 1em ;
-    }
-    .cajaproyectos .hijxspro{
-        padding: 1em;
-        width: 100%;
-        margin-bottom: 2em;
-    }
-    .cajaproyectos .hijxspro .hijxp{
-        margin: 1em 0;
-        width: 90%;
-    }
-
-    .cajaproyectos .intropro h2{
-        text-align: center;
-        font-size: 2.5em;
-
-    }
-    /*fin section proyectos*/
-
     /*section contacto*/
     .contacto .bigbox .contactame .socialmedia{
         flex-direction: column;
         width: 100%;
     }
-
     .contacto .bigbox .contactame .socialmedia .redes{
         width: 100%;
         justify-content: center;
@@ -138,14 +126,11 @@
     /*fin footer*/
 }
 
-
-
 @media(max-width: 500px){
     /*section contacto*/
     .escribime form .fieldmommy{
         flex-direction: column;
     }
-
     .escribime form .fieldmommy .field1{
         width: 100%;
     }
@@ -153,6 +138,17 @@
         width: 100%;
     }
     /*fin section contacto*/
+}
+
+@media(max-width: 360px){
+    /*conocimientos y proyectos*/
+    .conocimientos h2{
+        font-size: 2em;
+    }
+    .cajaproyectos h2{
+        font-size: 2em;
+    }
+    /*fin conocimientos y proyectos*/
 }
 
 @media(max-width: 380px){
@@ -163,12 +159,16 @@
     /*fin form*/
 }
 
-@media(max-width: 360px){
-    .conocimientos h2{
-        font-size: 2em;
+@media(max-width: 326px){
+    /*contactame*/
+    .redes a{
+        font-size: 0.95em;
     }
-
-    .cajaproyectos h2{
-        font-size: 2em;
+    .redes .fontawesome{
+        font-size: 1em;
     }
+    .contacto h2{
+        font-size: 2.7em;
+    }
+    /*fin contactame*/
 }
