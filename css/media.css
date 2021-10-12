@@ -11,7 +11,6 @@
     }
 }
 
-
 @media(max-width: 440px){
     .proyectos-flex .siblings{
         min-width: 11em;
@@ -46,7 +45,6 @@
     }
     /*fin section presentación*/
 }
-
 
 @media(max-width: 1025px){
     /*form*/
